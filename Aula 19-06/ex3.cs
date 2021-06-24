@@ -13,5 +13,6 @@ class Program {
         cont = nomecomp.Substring(6,5);
         sub = nomecomp.Replace("a", "o");
         Console.Write("Nome: " +nome +"\nsobrenome: "+sobrenome+"\n5 ao 10:"+cont+ "\ntrocar a por o: "+ sub);
+        Console.ReadKey();
     }
 }

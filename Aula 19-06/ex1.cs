@@ -11,5 +11,6 @@ class Program {
     	d = 2*r;
     	p = 2*p1*r;
     	Console.Write("Area: "+a+ " Diametro: "+d+ " Perimetro: " +p);
+        Console.ReadKey();
     }
 }

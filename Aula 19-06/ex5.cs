@@ -2,7 +2,7 @@ using System;
 
 class Program {
 	static void Main(string[] args) {
-		string nomecomp, ult, nome1;
+		string nomecomp, nome1;
 		int esp, esp1, ta;
 		Console.Write("Digite seu nome completo: ");
 		nomecomp = Console.ReadLine();
@@ -17,5 +17,6 @@ class Program {
 		esp1 = esp-1;
 		nome1 = nomecomp.Substring(0, esp1);
 		Console.Write(nome1+"."+words [ta]+"@fatec.sp.gov.br ");
+		Console.ReadKey();
        }
    }

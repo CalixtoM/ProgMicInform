@@ -15,5 +15,6 @@ class Program {
         x1 = (((b*(-1))+delta2)/(2*a));
         x2 = (((b*(-1))-delta2)/(2*a));
         Console.Write("Delta: "+delta+ ", x1: "+x1+ ", x2: " +x2);
+        Console.ReadKey();
     }
 }
