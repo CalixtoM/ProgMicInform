@@ -2,10 +2,12 @@ using System;
 
 class Program {
     static void Main(string[] args) {
-		double nasc, id;
+		int atual, nasc, id;
 		Console.Write("digite o ano do seu nascimento: ");
-		nasc = Convert.ToDouble(Console.ReadLine());
-		id = 2021 - nasc;
+		nasc = Convert.ToInt32(Console.ReadLine());
+		Console.Write("digite o ano atual: ");
+		atual = Convert.ToInt32(Console.ReadLine());
+		id = atual - nasc;
 		Console.Write("Você completa: " +id+ " anos em 2021");
     }
 }
