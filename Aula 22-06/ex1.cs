@@ -2,12 +2,11 @@ using System;
 
 class Program {
     static void Main(string[] args) {
-    	double sm, sal, r;
-        Console.WriteLine("Digite seu salario: ");
-        sal = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Digite o salario minimo: ");
-        sm = Convert.ToDouble(Console.ReadLine());
-		r = (sal / sm);
-        Console.WriteLine("Você recebe "+r+" salários minimos");
+    	double pq, pg, r;
+        Console.WriteLine("Digite seu peso (em Kg): ");
+        pq = Convert.ToDouble(Console.ReadLine());
+		pg = (pq * 1000);
+		pg = pg+(pg*0.10);
+        Console.WriteLine("Seu peso em gramas com acréscimo de 10%: "+pg);
     }
 }
