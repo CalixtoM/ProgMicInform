@@ -12,23 +12,23 @@ using System.Threading.Tasks;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.SetCursorPosition(2, 2);
-            Console.WriteLine("╔══════════════════════════════════════════════╗");
+            Console.WriteLine("╔═══════════════════════════════════════════════════════╗");
             Console.SetCursorPosition(2, 3);
-            Console.WriteLine("║                                              ║");
+            Console.WriteLine("║                                                       ║");
             Console.SetCursorPosition(2, 4);
-            Console.WriteLine("║                                              ║");
+            Console.WriteLine("║                                                       ║");
             Console.SetCursorPosition(2, 5);
-            Console.WriteLine("║                                              ║");
+            Console.WriteLine("║                                                       ║");
             Console.SetCursorPosition(2, 6);
-            Console.WriteLine("║                                              ║");
+            Console.WriteLine("║                                                       ║");
             Console.SetCursorPosition(2, 7);
-            Console.WriteLine("║                                              ║");
+            Console.WriteLine("║                                                       ║");
             Console.SetCursorPosition(2, 8);
-            Console.WriteLine("║                                              ║");
+            Console.WriteLine("║                                                       ║");
             Console.SetCursorPosition(2, 9);
-            Console.WriteLine("╚══════════════════════════════════════════════╝");
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.SetCursorPosition(20, 3);
+            Console.WriteLine("╚═══════════════════════════════════════════════════════╝");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.SetCursorPosition(24, 3);
             Console.WriteLine("Exercicio 6!");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.SetCursorPosition(5, 5);
@@ -44,7 +44,7 @@ using System.Threading.Tasks;
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.SetCursorPosition(5, 8);
                 Console.WriteLine("O número digitado não é multiplo de 5!");
-           } 
+            } 
         }
     }
-}
+

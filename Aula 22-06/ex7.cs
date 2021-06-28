@@ -33,22 +33,22 @@ using System.Threading.Tasks;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.SetCursorPosition(4, 5);
             double sal, prest, limite;
-        	Console.Write("digite o salario: ");
-        	sal = Convert.ToDouble(Console.ReadLine());
+            Console.Write("digite o salario: ");
+            sal = Convert.ToDouble(Console.ReadLine());
             Console.SetCursorPosition(4, 6);   
-        	Console.Write("digite o valor da prestação: ");
-        	prest = Convert.ToDouble(Console.ReadLine());
-        	limite = (sal*0.30);
-        	
-        	if(prest <=limite){
-        		Console.ForegroundColor = ConsoleColor.DarkGreen;
-            	Console.SetCursorPosition(4, 8);
-        		Console.Write("Prestação aprovada!");
-        	}
-        	else{
-            	Console.ForegroundColor = ConsoleColor.DarkRed;
-            	Console.SetCursorPosition(4, 8);
-        		Console.Write("Prestação reprovada!");
-        	}
+            Console.Write("digite o valor da prestação: ");
+            prest = Convert.ToDouble(Console.ReadLine());
+            limite = (sal*0.30);
+            
+            if(prest <=limite){
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                Console.SetCursorPosition(4, 8);
+                Console.Write("Prestação aprovada!");
+            }
+            else{
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.SetCursorPosition(4, 8);
+                Console.Write("Prestação reprovada!");
+            }
         }   
     }

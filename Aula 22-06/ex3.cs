@@ -32,11 +32,11 @@ using System.Threading.Tasks;
             Console.WriteLine("Exercicio 3!");
             Console.ForegroundColor = ConsoleColor.White;
             Console.SetCursorPosition(4, 5);
-            double tempk, tempc;
+            double tempf, tempc;
             Console.Write("Digite a temperatura em fahrenheit: ");
-            tempk = Convert.ToDouble(Console.ReadLine());
-            tempc = (tempk - 32)*(0.555555556);
+            tempf = Convert.ToDouble(Console.ReadLine());
+            tempc = (tempf - 32)*(0.555555556);
             Console.SetCursorPosition(4, 7);
-            Console.WriteLine("A temperatura em Celsius é: "+Math.Round(tempc));
+            Console.WriteLine("A temperatura em Celsius é: "+Math.Round(tempc, 2));
         }   
     }
