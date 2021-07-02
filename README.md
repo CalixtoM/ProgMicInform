@@ -20,6 +20,27 @@ Esse repositorio é dedicado às atividades realizadas na materia de Programaç�
 
 8 - Faça um código em C# que leia três notas de um aluno, calcule e escreva a média final deste aluno. Considerar que a média é ponderada e que o peso das notas é 2, 3 e 5. Fórmula para o cálculo da média final é:
 
+## Aula 22-06
+
+1 – Criar um programa que permita a digitação do salário mínimo e do salário do usuário, calcular quantos salários mínimos a pessoa ganha.
+
+2 – Elaborar um programa que permita que o usuário digite uma temperatura em graus Celsius e o programa converta para Kelvin.
+
+3 - Escreva um algoritmo para ler uma temperatura em graus Fahrenheit, calcular e escrever o valor correspondente em graus Celsius 
+
+4 – Criar um programa que permita que o usuário digite seu peso em kg, calcular e mostrar:
+
+Peso em gramas;
+O peso com um acréscimo de 10%.
+
+5 – Criar um programa que permita que o usuário digite um número, verificar se este número é maior que 20, se for maior mostrar na tela a metade do número digitado, caso seja menor 20 mostrar o dobro do número digitado.
+
+6 – Criar um programa que permita que o usuário digite um número, verificar se o mesmo é múltiplo de 5.
+
+7 – A prefeitura esta concedendo empréstimos a seus funcionários seguindo a regra de que a prestação não pode ser maior que 30% do valor do salário. Criar um programa que permita a entrada do salário e da prestação do empréstimo, verificar se a prestação digitada corresponde a regra de empréstimo descrita acima.
+
+8 – Criar um programa que permita que o usuário digite um número, verificar e mostrar na tela se o número é positivo, negativo ou zero.
+
 ## Aula 01-07
 
 1 – Crie um programa que permita que o usuário digite o valor das vendas que executou neste mês, imprimir na tela o premio que ganhou por estas vendas de acordo com os critérios abaixo:
