@@ -17,12 +17,15 @@ class Program {
 		v = Convert.ToDouble(Console.ReadLine());
 
 		if(v < 1000){
+			Console.ForegroundColor = ConsoleColor.Red;
 			Console.Write("Sem premios");
 		}
 		else if((v >= 1000.00) && (v < 3000.00)){
+			Console.ForegroundColor = ConsoleColor.Yellow;
 			Console.Write("Premio de R$ 150.00");
 		}
 		else{
+			Console.ForegroundColor = ConsoleColor.Green;
 			Console.Write("Premio de 300.00");
 		}
 

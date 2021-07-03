@@ -22,18 +22,22 @@ class Program {
 
         if(r >= 9){
         	Console.WriteLine(r);
+        	Console.ForegroundColor = ConsoleColor.DarkBlue;
         	Console.WriteLine("Conceito A");
         }
         else if((r >= 7.5) && (r < 9)){
         	Console.WriteLine(r);
+        	Console.ForegroundColor = ConsoleColor.Blue;
         	Console.WriteLine("Conceito B");
         }
         else if((r >= 6) && (r < 7.5)){
         	Console.WriteLine(r);
+        	Console.ForegroundColor = ConsoleColor.Green;
         	Console.WriteLine("Conceito C");
         }
         else{
         	Console.WriteLine(r);
+        	Console.ForegroundColor = ConsoleColor.DarkRed;
         	Console.WriteLine("Conceito D");
         }
 

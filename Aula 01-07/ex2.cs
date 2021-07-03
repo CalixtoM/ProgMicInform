@@ -14,9 +14,11 @@ class Program {
         n = Convert.ToInt32(Console.ReadLine());
 
         if((n % 3 == 0) && (n % 7 == 0)){
+        	Console.ForegroundColor = ConsoleColor.Green;
         	Console.Write("Multiplo de 3 e 7");
         }
         else{
+        	Console.ForegroundColor = ConsoleColor.Red;
         	Console.Write("Não é multiplo");
         }
 
