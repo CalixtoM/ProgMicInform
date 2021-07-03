@@ -111,9 +111,9 @@ Formulas:
 Programa que lê o salário e o código do cargo de um funcionário e calcula o novo salário.
 Se o cargo do funcionário não estiver na tabela, ele recebe 40% de aumento.
 
-            Código     Cargo               Aumento
+            Código           Cargo               Aumento
 
-            1               Gerente              10%
+            1               Gerente               10%
 
             2               Analista              20%
 
