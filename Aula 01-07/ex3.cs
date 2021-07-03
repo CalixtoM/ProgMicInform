@@ -14,7 +14,7 @@ class Program {
     static void Main(string[] args) {
         
         int qnt;
-        double preco, t;
+        double preco, t, td, d;
         Console.Write("Escreva o nome do produto: ");
     	string nome = Console.ReadLine();
     	Console.Write("Digite a quantidade: ");
@@ -24,14 +24,18 @@ class Program {
     	t = preco*qnt;
 
     	if(qnt <= 5){
-    		t = t*0.98;
+    		d = t * 0.02;
+    		td = t-d;
     	}
     	else if(qnt > 5 && qnt <= 10){
-    		t = t*0.97;
+    		d = t * 0.03;
+    		td = t-d;
     	}
     	else{
-    		t = t*0.95;
+    		d = t * 0.05;
+    		td = t-d;
     	}
-    	Console.Write(t);
+    	Console.Write("Produto: " +nome);
+    	Console.Write(" Total sem desconto: "+t+", Desconto: "+d+", Total com desconto: "+td);
     }
 }
