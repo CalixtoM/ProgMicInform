@@ -67,6 +67,8 @@ O peso com um acréscimo de 10%.
 
 ## Aula 01-07
 
+### Operadores Lógicos
+
 1 – Crie um programa que permita que o usuário digite o valor das vendas que executou neste mês, imprimir na tela o premio que ganhou por estas vendas de acordo com os critérios abaixo:
 
 •Menor que R$ 1000,00 (Sem premio).
@@ -94,3 +96,28 @@ AP = 25%
 TP = 25 %
 
 P   = 50%
+
+### SwitchCase
+
+1 – Elabore um programa que crie o seguinte menu:
+Formulas:
+  1 – Baskara.
+  2 – Força. (F = m * a)
+  3 – Velocidade. (V = Vo + a*t)
+
+2 – Desenvolva uma calculadora, onde será necessário entrar com a operação, primeiro e segundo valor, exiba o resultado na tela.
+
+3 - Uma empresa concederá um aumento de salário aos seus funcionários, variável de acordo com o cargo, conforme a tabela abaixo.
+Programa que lê o salário e o código do cargo de um funcionário e calcula o novo salário.
+Se o cargo do funcionário não estiver na tabela, ele recebe 40% de aumento.
+
+            Código     Cargo               Aumento
+
+            1               Gerente              10%
+
+            2               Analista              20%
+
+            3               Técnico               30%
+
+
+•No final é mostrado o salário antigo, o novo salário e a diferença.
