@@ -160,7 +160,13 @@ class Program {
                 v = vo+(ac*t);
                 Console.SetCursorPosition(21, 8);
                 Console.Write("Velocidade: "+v);
-                break;        
+                break;
+
+            default:
+                Console.SetCursorPosition(4, 8);
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.Write("Opção Inválida");
+                break;
         }
 
 
