@@ -63,7 +63,7 @@ class Program {
                 Console.WriteLine("╚═══════════════════════════════════════════════════════╝");
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.SetCursorPosition(24, 3);
-                Console.WriteLine("Exercicio 1!");
+                Console.WriteLine("Baskara!");
                 Console.ForegroundColor = ConsoleColor.White;
                 double a, b, b2, c, delta, delta2, x1, x2;
                 Console.SetCursorPosition(4, 5);
@@ -108,7 +108,7 @@ class Program {
                 Console.WriteLine("╚═══════════════════════════════════════════════════════╝");
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.SetCursorPosition(24, 3);
-                Console.WriteLine("Exercicio 1! - SwitchCase");
+                Console.WriteLine("Força!");
                 Console.ForegroundColor = ConsoleColor.White;
                 double f, m, ace;
                 Console.SetCursorPosition(4, 5);
@@ -145,7 +145,7 @@ class Program {
                 Console.WriteLine("╚═══════════════════════════════════════════════════════╝");
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.SetCursorPosition(24, 3);
-                Console.WriteLine("Exercicio 1!");
+                Console.WriteLine("Velocidade!");
                 Console.ForegroundColor = ConsoleColor.White;
                 double v, vo, ac, t;
                 Console.SetCursorPosition(4, 5);

@@ -206,6 +206,12 @@ class Program {
                 Console.Write("O resultado dessa conta é: "+r);
 
             break;
+
+            default:
+                Console.SetCursorPosition(4, 9);
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.Write("Opção Inválida");
+                break;
         }
     }
 }
