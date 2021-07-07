@@ -143,3 +143,9 @@ Se o cargo do funcionário não estiver na tabela, ele recebe 40% de aumento.
 3 - Ler 10 valores e escrever quantos desses valores lidos são NEGATIVOS.
 
 4 - Escreva um programa que imprima as seguintes sequencias de números: (1, 1 2 3 4 5 6 7 8 9 10) (2, 1 2 3 4 5 6 7 8 9 10) (3, 1 2 3 4 5 6 7 8 9 10) (4, 1 2 3 4 5 6 7 8 9 10) e assim sucessivamente, até que o primeiro número (antes da vírgula), também chegue a 10.
+
+## Aula 05-07
+
+1 - Crie um algoritmo no qual o usuário poderá escolher qual operação matemática ele poderá executar, adição, subtração, multiplicação e divisão. Como regra você deverá implementar funções que retornam os resultados das operações matemáticas.
+
+2 - Crie um programa no qual o usuário deverá informar três valores inteiros (segmentos de retas). O programa deverá informar se esses valores representam os lados de um triângulo.
