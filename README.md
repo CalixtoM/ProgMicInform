@@ -144,6 +144,20 @@ Se o cargo do funcionário não estiver na tabela, ele recebe 40% de aumento.
 
 4 - Escreva um programa que imprima as seguintes sequencias de números: (1, 1 2 3 4 5 6 7 8 9 10) (2, 1 2 3 4 5 6 7 8 9 10) (3, 1 2 3 4 5 6 7 8 9 10) (4, 1 2 3 4 5 6 7 8 9 10) e assim sucessivamente, até que o primeiro número (antes da vírgula), também chegue a 10.
 
+## Aula 03-07
+
+### Do/While
+
+1 - Crie um programa que, utilizando a estrutura “Do While”, permita que o usuário digite um numero, este numero deve ser par, mostrar na tela o numero digitado. Não permitir que o usuário digite um numero que não seja par.
+
+2 - Elabore um programa que receba via teclado quatro notas de um aluno. Calcular e exibir na tela a media aritmética dessas notas.
+
+Obs. A cada nota digitada, verificar se as mesmas estão no intervalo de 0 a 10. Perguntar se o usuário deseja continuar.
+
+3 - Escreva um código que leia um número do teclado até que encontre um número menor ou igual a 1.
+
+4 - Crie um programa que leia um número do teclado até que encontre um número igual a zero. No final, mostre a soma dos números digitados.
+
 ## Aula 05-07
 
 1 - Crie um algoritmo no qual o usuário poderá escolher qual operação matemática ele poderá executar, adição, subtração, multiplicação e divisão. Como regra você deverá implementar funções que retornam os resultados das operações matemáticas.
