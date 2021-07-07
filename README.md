@@ -121,3 +121,25 @@ Se o cargo do funcionário não estiver na tabela, ele recebe 40% de aumento.
 
 
 •No final é mostrado o salário antigo, o novo salário e a diferença.
+
+## Aula 02-07
+
+### For
+
+1 - Crie um programa que permita o usuário digitar um numero qualquer. Imprimir na tela a tabuada deste numero.
+
+2 - Ler um valor N e imprimir todos os valores inteiros entre 1 (inclusive) e N (inclusive). Considere que o N será sempre maior que ZERO.
+
+3 - Crie um programa que permita que o usuário digite 10 números, some apenas os números digitados maiores do que 10.
+
+4 - Criar um programa que permita o usuário entrar com vinte números, após o termino da digitação, mostrar na tela qual o maior e menor numero que o usuário digitou.
+
+### While
+
+1 - Elabore um programa que exiba na tela uma sequencia de números naturais começando em I, terminando em F.
+
+2 - Faça um algoritmo que exiba quantas pessoas possuem mais de 18 anos. O algoritmo deverá ler a idade de 10 pessoas.
+
+3 - Ler 10 valores e escrever quantos desses valores lidos são NEGATIVOS.
+
+4 - Escreva um programa que imprima as seguintes sequencias de números: (1, 1 2 3 4 5 6 7 8 9 10) (2, 1 2 3 4 5 6 7 8 9 10) (3, 1 2 3 4 5 6 7 8 9 10) (4, 1 2 3 4 5 6 7 8 9 10) e assim sucessivamente, até que o primeiro número (antes da vírgula), também chegue a 10.
