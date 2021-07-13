@@ -167,3 +167,6 @@ Obs. A cada nota digitada, verificar se as mesmas estão no intervalo de 0 a 10.
 ## Aula 12-07
 
 Prova - Realizar um sistema com fórmulas de verificação de ano bissexto, Velocidade média e poligono regular.
+
+# ✔️ Repositório Finalizado
+
