@@ -163,3 +163,7 @@ Obs. A cada nota digitada, verificar se as mesmas estão no intervalo de 0 a 10.
 1 - Crie um algoritmo no qual o usuário poderá escolher qual operação matemática ele poderá executar, adição, subtração, multiplicação e divisão. Como regra você deverá implementar funções que retornam os resultados das operações matemáticas.
 
 2 - Crie um programa no qual o usuário deverá informar três valores inteiros (segmentos de retas). O programa deverá informar se esses valores representam os lados de um triângulo.
+
+## Aula 12-07
+
+Prova - Realizar um sistema com fórmulas de verificação de ano bissexto, Velocidade média e poligono regular.
